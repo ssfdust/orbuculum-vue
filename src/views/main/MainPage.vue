@@ -4,7 +4,6 @@ import MainHeader from './components/MainHeader.vue'
 
 <template>
   <el-container>
-    <el-header><MainHeader /></el-header>
     <el-main>
       <router-view></router-view>
     </el-main>
