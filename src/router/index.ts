@@ -3,8 +3,9 @@ import type { RouteRecordRaw } from 'vue-router'
 // 配置路由信息
 const routes: RouteRecordRaw[] = [
   {
+    name: 'home',
     path: '/',
-    redirect: '/main',
+    component: () => import('/@/views/main/dashboard/WorkPlace.vue'),
   },
   {
     name: 'login',
